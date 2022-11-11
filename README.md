@@ -1,5 +1,8 @@
 # circle-detector
-A CLI script to detect circles in images and quantify edge transitions
+A CLI script to detect circles in images and quantify edge transitions. All the circle detection parameters are tuneable,
+with example values given in the help docstring sufficient for detecting 45um beads. However, sky's the limit! By 
+increasing minR and maxR, you can detect large circles, by adjusting p1 you can detect better in low/high contrast images,
+and if you're interested in the profile of the edge of your circles, the f parameter has got you covered.
 
 ## Usage
 ```buildoutcfg
