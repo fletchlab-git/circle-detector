@@ -2,11 +2,11 @@
 A CLI script to detect circles in images and quantify edge transitions. All the circle detection parameters are tuneable,
 with example values given in the help docstring sufficient for detecting 45um beads. However, sky's the limit! By 
 increasing minR and maxR, you can detect large circles, by adjusting p1 you can detect better in low/high contrast images,
-and if you're interested in the profile of the edge of your circles, the f parameter has got you covered.
+and if you're interested in the profile of the edge of your circles, the f parameter has got you covered. Brackets indicate optional.
 
 ## Usage
 ```buildoutcfg
-usage: detect.py [-h]  -i IMAGE -p1 HOUGH PARAMETER 1 -p2 HOUGH PARAMETER 2 -minR MINIMUM RADIUS -maxR MAXIMUM RADIUS
+usage: [python3] [absolute/path/to/]detect.py [-h]  -i IMAGE -p1 HOUGH PARAMETER 1 -p2 HOUGH PARAMETER 2 -minR MINIMUM RADIUS -maxR MAXIMUM RADIUS
                         -f FUZZY REGION
 
 arguments:
